@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'norsebold';
+  src: url('../font/norse-bold-webfont.woff2') format('woff2'),
+       url('../font/norse-bold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+@font-face {
+  font-family: 'norseregular';
+  src: url('../font/norse-webfont.woff2') format('woff2'),
+       url('../font/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.image {
+  width: 800px;
+  height: 600px;
+  border-radius: 50px;
+  
+}
+p {
+  font-size: 20px;
+  color: darkgreen;
+  font-family: 'norseregular';
+}
+div {
+      background: url(../images/odin.png);
+      background-size:contain;
+      background-repeat: no-repeat;
+      height: 350px;
+      position: top,ceneter;
+      background-position: 250px 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+}
+li {
+  font-size: 20px;
+  color: darkgreen;
+  font-family: 'norseregular';
+}
+h1 {
+      font-family: 'norsebold';
+        font-size: 60px;
+        color: rgb(199 141 47);
+        
+}
+h2 {
+  font-family: 'norseregular';
+  font-size: 30px;
+  color: rgb(199 141 47);
+}
